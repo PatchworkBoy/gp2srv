@@ -45,7 +45,7 @@ import x.mvmn.util.FileBackedProperties;
 public class GPhoto2Server implements Provider<TemplateEngine> {
 
 	private static final String DEFAULT_CONTEXT_PATH = "/";
-	private static final int DEFAULT_PORT = 8080;
+	private static final int DEFAULT_PORT = 8090;
 
 	private final Server server;
 	private final Logger logger;
